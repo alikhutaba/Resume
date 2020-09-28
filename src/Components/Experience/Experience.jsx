@@ -58,11 +58,12 @@ class Experience extends React.Component {
                 <p className="experience-details">
                   GPA: 85, yearly certificate of excellence.
                 </p>
-                <p className="experience-details">2 semesters to graduation.</p>
-
-                <p className="experience-details">
-                  Recommendations will be provided upon request
-                </p>
+                <div>
+                  <h6>2 semesters to graduation.</h6>
+                </div>
+                <div>
+                  <h6>Recommendations will be provided upon request.</h6>
+                </div>
               </div>
             </div>
           </div>

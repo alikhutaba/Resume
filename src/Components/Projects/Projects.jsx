@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import pathfindingPic from "../../images/pathfinding.png";
 import sortingPic from "../../images/sorting.png";
-import test from "../../images/lights.jpeg";
+import test from "../../images/ERM.png";
 import { SiGithub } from "react-icons/si";
 
 class Projects extends React.Component {

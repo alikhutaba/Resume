@@ -32,7 +32,7 @@
   height: 0.6rem;
 }
 .language-progress {
-  height: 1rem;
+  height: 20px !important;
 }
 
 .progress-bar {
