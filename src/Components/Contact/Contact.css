@@ -1,0 +1,52 @@
+.Contact {
+  min-height: 100vh;
+  background-color: #e0e0e0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.contact-title {
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 72px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.linkedin,
+.github,
+.mail,
+.phone {
+  display: inline-block;
+  color: #ff6600;
+  margin: 100px 50px 50px 50px !important;
+}
+
+.linkedin :hover {
+  color: #2867b2;
+}
+
+.github :hover {
+  color: #24292e;
+}
+
+.mail :hover {
+  color: #b23121;
+}
+
+.phone :hover {
+  color: #00ff00;
+}
+
+@media screen and (max-width: 450px) {
+  .contact-title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contact-title {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,87 @@
+.projects {
+  background-color: #e0e0e0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.projects-title {
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 72px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.project {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pathfinding-img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.image:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.github-title {
+  text-align: center;
+}
+
+.github-icon {
+  display: inline-block;
+  color: #ff6600;
+  margin: 10px 10px 10px 10px !important;
+}
+
+.github-icon :hover {
+  color: #24292e;
+}
+
+@media screen and (max-width: 992px) {
+  .project-detials,
+  .project-pic {
+    flex: unset;
+    width: 100% !important;
+    display: block !important;
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projects-title {
+    font-size: 60px;
+  }
+}

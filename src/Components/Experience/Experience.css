@@ -1,0 +1,73 @@
+.Experiences {
+  background-color: #e0e0e0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.experience-title {
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 72px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.sub-title {
+  color: #ff6600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.experience-row {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.experience-name {
+  font-family: "Trocchi", serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+
+.experience-date {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0;
+}
+
+.experience-location {
+  color: #ff6600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.experience-details {
+  font-weight: normal;
+  margin: 0;
+  color: #333;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.experience-details-title {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+  .experience-title {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .experience-title {
+    font-size: 50px;
+  }
+}
