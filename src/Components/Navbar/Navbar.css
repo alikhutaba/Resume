@@ -159,7 +159,7 @@ a.active > .nav-item {
 
   /*---------------------------------hamburger icon--------------------------------------------------------*/
   .hamburger-menu {
-    position: unset;
+    position: unset !important;
     right: 0;
     left: 0;
     bottom: unset;
@@ -180,7 +180,7 @@ a.active > .nav-item {
     right: 0%;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   /*

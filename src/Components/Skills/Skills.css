@@ -45,8 +45,9 @@
 
 .animation-progress-bar {
   width: 100%;
-  animation: load 10s linear 1.75s infinite;
-  animation-delay: 2s;
+  animation: load 5s linear infinite;
+  /* animation: load 5s linear 1.75s infinite; */
+  /* animation-delay: 2s; */
 }
 @keyframes load {
   0% {

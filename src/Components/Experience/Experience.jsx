@@ -111,7 +111,7 @@ class Experience extends React.Component {
                 <h6 className="experience-details-title">
                   Outstanding program "Smart Up" at Afeka College.
                 </h6>
-                <ul>
+                <ul className="list">
                   <li>
                     Designed and constructed a driving simulator adapted for
                     users with cerebral palsy.

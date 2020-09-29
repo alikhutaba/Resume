@@ -160,4 +160,12 @@ div.scroll:hover .scrollText {
   .container {
     padding-right: 15px;
   }
+
+  div.scroll:hover .scrollIcon {
+    display: inline;
+  }
+  div.scroll:hover .scrollText {
+    display: none;
+    cursor: pointer;
+  }
 }

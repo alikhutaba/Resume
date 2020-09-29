@@ -14,55 +14,56 @@ class Contact extends React.Component {
 
           <hr></hr>
 
-          <a
-            className="linkedin"
-            href="https://www.linkedin.com/in/ali-khutaba-843627173/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiLinkedin size={70}></SiLinkedin>
-          </a>
-          <a
-            className="github"
-            href="https://github.com/alikhutaba"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiGithub size={70}></SiGithub>
-          </a>
+          <div className="row">
+            <div className="col-sm-6">
+              <a
+                className="linkedin"
+                href="https://www.linkedin.com/in/ali-khutaba-843627173/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiLinkedin size={70}></SiLinkedin>
+              </a>
+              <a
+                className="github"
+                href="https://github.com/alikhutaba"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiGithub size={70}></SiGithub>
+              </a>
+            </div>
 
-          <a
-            className="mail"
-            href="mailto:khutaba.ali@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <VscMail size={90}></VscMail>
-          </a>
+            <div className="col-sm-6">
+              <a
+                className="mail"
+                href="mailto:khutaba.ali@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <VscMail size={70}></VscMail>
+              </a>
 
-          <a
-            className="phone"
-            href="tel:+972502862222"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MdPhoneIphone size={90}></MdPhoneIphone>
-          </a>
+              <a
+                className="phone"
+                href="tel:+972502862222"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MdPhoneIphone size={70}></MdPhoneIphone>
+              </a>
+            </div>
+          </div>
           <h6
             style={{
               display: "block",
               marginTop: "3vw",
               marginBottom: "2vw",
               fontFamily: "Lato",
+              fontWeight: "bold",
             }}
           >
-            <a
-              href="mailto:khutaba.ali@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ali.Khutaba@gmail.com
-            </a>
+            Ali.Khutaba@gmail.com
           </h6>
 
           <h6
@@ -71,15 +72,10 @@ class Contact extends React.Component {
               marginTop: "3vw",
               marginBottom: "2vw",
               fontFamily: "Lato",
+              fontWeight: "bold",
             }}
           >
-            <a
-              href="tel:+972502862222"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              +972 50-286-2222
-            </a>
+            +972 50-286-2222
           </h6>
 
           <h4

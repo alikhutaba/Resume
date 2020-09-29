@@ -21,3 +21,12 @@
 .progress-bar {
   background-color: #ff6600 !important;
 }
+
+@media (max-width: 576px) {
+  .skill-progress {
+    max-width: 65% !important;
+  }
+  .skill-name {
+    max-width: 35% !important;
+  }
+}
