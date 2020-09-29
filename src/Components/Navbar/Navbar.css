@@ -149,7 +149,7 @@ a.active > .nav-item {
     background-color: rgb(0, 0, 0);
     width: 100%;
     z-index: 999;
-    min-height: 60px;
+    min-height: 55px;
   }
 
   .sticky {
@@ -166,7 +166,7 @@ a.active > .nav-item {
     float: right;
     position: absolute;
     top: 0;
-    margin: 10px 15px 10px 15px;
+    margin: 5px 15px 5px 15px;
   }
   #hamburger-icon {
     float: right;

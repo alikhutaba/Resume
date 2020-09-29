@@ -97,6 +97,7 @@ class Navbar extends React.Component {
             to="Profile"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
@@ -110,6 +111,7 @@ class Navbar extends React.Component {
             to="Experiences"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
@@ -123,6 +125,7 @@ class Navbar extends React.Component {
             to="Skills"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
@@ -136,6 +139,7 @@ class Navbar extends React.Component {
             to="Projects"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
@@ -149,6 +153,7 @@ class Navbar extends React.Component {
             to="Volunteer"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
@@ -162,6 +167,7 @@ class Navbar extends React.Component {
             to="Contact"
             spy={true}
             smooth={true}
+            offset={0}
             duration={500}
             onClick={this.handleUserClick}
           >
