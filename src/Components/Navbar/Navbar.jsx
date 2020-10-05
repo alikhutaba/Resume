@@ -116,7 +116,7 @@ class Navbar extends React.Component {
             onClick={this.handleUserClick}
           >
             <div className="nav-item">
-              <div className="title">Experiences</div>
+              <div className="title">Experience</div>
             </div>
           </Link>
 
