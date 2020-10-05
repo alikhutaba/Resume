@@ -7,18 +7,18 @@ class Experience extends React.Component {
     return (
       <div className="Experiences" id="Experiences">
         <div className="container">
-          <h1 className="experience-title">Experiences</h1>
+          <h1 className="experience-title">Experience</h1>
           <div className="quotes">
             <h5 className="quotes">
               "Experience is one thing you can't get for nothing."
             </h5>
-            <h6 className="quotes">paulo coelho</h6>
+            <h6 className="quotes">Paulo Coelho</h6>
           </div>
 
           <hr></hr>
-          <h2 className="sub-title">Educations</h2>
+          <h2 className="sub-title">Education</h2>
 
-          {/* -------------------------Educations---------------------------- */}
+          {/* -------------------------Education---------------------------- */}
 
           {/* <div className="row experience-row">
             <div className="col-sm-4">
@@ -81,11 +81,11 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  High School Diploma - Major in biology and chemistry
+                  High School Diploma - Major in Biology and Chemistry
                 </h6>
                 <p className="experience-details">
-                  I graduated highschool, where I enjoyed doing science, math,
-                  biology and arts.
+                  I graduated highschool, where I enjoyed doing science, math
+                  and biology.
                 </p>
               </div>
             </div>
@@ -94,9 +94,9 @@ class Experience extends React.Component {
           {/* ----------------------------------------------------- */}
 
           <hr></hr>
-          <h2 className="sub-title">Careers</h2>
+          <h2 className="sub-title">Career</h2>
 
-          {/* -------------------------Careers---------------------------- */}
+          {/* -------------------------Career---------------------------- */}
 
           <div className="row experience-row">
             <div className="col-sm-4">
@@ -176,8 +176,8 @@ class Experience extends React.Component {
                   Coordinator of the Arabs students at Afeka College.
                 </h6>
                 <p>
-                  Work with students, ability to help with their reports,
-                  Available most of the time and Full responsibly for them.
+                  Worked with students,helping with their reports, and took
+                  responsibilty for their proccess.
                 </p>
               </div>
             </div>

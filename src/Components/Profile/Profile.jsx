@@ -14,13 +14,14 @@ class Profile extends React.Component {
             <div className="col-sm-4 about-me-col">
               <h2 className="sub-title">About me</h2>
               <p className="about-me">
-                Hi, I am ali, a software engineer student at afeka collge of
-                engineer, tel-Aviv with 2 semesters to graduation. I am a junior
-                full stack web developer who love structure, order and
-                algorithms. Also I like working in a team, you'll learn faster
-                and much more. I am looking for new challenging as a software
-                engineer or a full stack with preffering to server side, with
-                possibility to full time.
+                Hi, I am Ali.
+                 A Software Engineer student at Afeka College of
+                Engineering – Tel Aviv. Two semesters to graduation. I am a
+                junior full stack web developer who loves Structures, Orders and
+                Algorithms. Moreover, teamwork where I can learn faster and
+                deeper. Looking for a new challenge as a Software engineer or a
+                full stack position prefer to server side, possibility to
+                Full-time job.
               </p>
             </div>
             <div className="col-sm-5 image-col">

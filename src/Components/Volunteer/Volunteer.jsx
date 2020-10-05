@@ -7,7 +7,7 @@ class Volunteer extends React.Component {
     return (
       <div className="volunteer" id="Volunteer">
         <div className="container">
-          <h1 className="volunteer-title">volunteer</h1>
+          <h1 className="volunteer-title">volunteering</h1>
           <div className="quotes">
             <h5 className="quotes">
               "Remember that the happiest people are not those getting more, but

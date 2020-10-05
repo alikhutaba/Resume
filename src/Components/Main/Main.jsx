@@ -13,7 +13,7 @@ class Main extends React.Component {
           <p className="name">Ali Khutaba</p>
 
           <hr className="line"></hr>
-          <h4 className="status">Software Engineer Student</h4>
+          <h4 className="status">Software Engineer</h4>
           <Link
             activeClass="active"
             to="Profile"
