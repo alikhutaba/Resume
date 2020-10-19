@@ -84,8 +84,10 @@ class Experience extends React.Component {
                   High School Diploma - Major in Biology and Chemistry
                 </h6>
                 <p className="experience-details">
-                  I graduated highschool, where I enjoyed doing science, math
-                  and biology.
+                  Majored in Biology and Chemistry, five-unit level.
+                </p>
+                <p className="experience-details">
+                  Mathematics and English – five-unit level.
                 </p>
               </div>
             </div>
@@ -176,8 +178,12 @@ class Experience extends React.Component {
                   Coordinator of the Arabs students at Afeka College.
                 </h6>
                 <p>
-                  Worked with students,helping with their reports, and took
-                  responsibilty for their proccess.
+                  Helped Arab students at Afeka College with their various
+                  needs.
+                </p>
+                <p>
+                  Multiplicated the number of Arabs students per year and
+                  reduced the failing percentage of first year students.
                 </p>
               </div>
             </div>

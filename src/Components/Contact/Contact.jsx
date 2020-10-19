@@ -4,6 +4,8 @@ import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { VscMail } from "react-icons/vsc";
 import { MdPhoneIphone } from "react-icons/md";
+// import { FcLike } from "react-icons/fc";
+// import { FcDislike } from "react-icons/fc";
 
 class Contact extends React.Component {
   render() {
@@ -87,7 +89,7 @@ class Contact extends React.Component {
             }}
           >
             <a
-              href="https://drive.google.com/file/d/13jxcD3Wnd3WUzmWm8oWkxQIBYm7IBJKN/view"
+              href="https://drive.google.com/file/d/1PtntaKoMsGacKZUg7RET8X0Q-i_DFhlQ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -95,6 +97,10 @@ class Contact extends React.Component {
             </a>
           </h4>
           <hr></hr>
+
+          {/* <a className="" href="" target="_blank" rel="noopener noreferrer">
+            <FcLike size={70}></FcLike>
+          </a> */}
         </div>
       </div>
     );
