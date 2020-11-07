@@ -16,13 +16,21 @@ class Profile extends React.Component {
               <p className="about-me">
                 Hi, I am Ali.
                  A Software Engineer student at Afeka College of
-                Engineering – Tel Aviv. Two semesters to graduation. I am a
-                junior full stack web developer who loves Structures, Orders and
-                Algorithms. Moreover, teamwork where I can learn faster and
-                deeper. Looking for a new challenge as a Software engineer or a
+                Engineering – Tel Aviv. 
+              </p>
+              
+              <p className="about-me">
+                I am a junior full stack web developer who loves Structures, Orders and
+                Algorithms. Moreover, teamwork where I can learn faster and deeper.
+                </p>
+                
+              <p className="about-me">
+              Looking for a new challenge as a Software engineer or a
                 full stack position prefer to server side, possibility to
                 Full-time job.
-              </p>
+                </p>
+
+
             </div>
             <div className="col-sm-5 image-col">
               <img className="proflie-img" src={profliePic} alt="profile"></img>

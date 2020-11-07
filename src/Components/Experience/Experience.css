@@ -12,10 +12,15 @@
 }
 
 .list {
+  padding-top: 10px;
   padding-left: 10px;
 }
 .quotes {
   text-align: center;
+}
+
+li {
+  padding-top: 10px;
 }
 
 .sub-title {
@@ -62,6 +67,10 @@
 
 .experience-details-title {
   font-weight: bold;
+}
+
+.courses {
+  margin-top: 10px !important;
 }
 
 @media screen and (max-width: 450px) {

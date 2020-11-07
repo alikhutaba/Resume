@@ -89,7 +89,7 @@ class Contact extends React.Component {
             }}
           >
             <a
-              href="https://drive.google.com/file/d/1PtntaKoMsGacKZUg7RET8X0Q-i_DFhlQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1myodEkbJozZgpw_ZTqDKy6DU-yZD2QY9/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

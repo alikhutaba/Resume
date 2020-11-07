@@ -78,7 +78,7 @@ class Abilities extends React.Component {
                 <span className="col-sm-7 skill-progress">
                   <div className="progress language-progress ">
                     <div className="progress-bar" style={{ width: "100%" }}>
-                      Native proficiency
+                      Native
                     </div>
                   </div>
                 </span>
@@ -94,7 +94,7 @@ class Abilities extends React.Component {
                 <span className="col-sm-7 skill-progress">
                   <div className="progress language-progress">
                     <div className="progress-bar" style={{ width: "95%" }}>
-                      Fluent proficiency
+                      Fluent
                     </div>
                   </div>
                 </span>
@@ -110,7 +110,7 @@ class Abilities extends React.Component {
                 <span className="col-sm-7 skill-progress">
                   <div className="progress language-progress">
                     <div className="progress-bar" style={{ width: "90%" }}>
-                      Fluent proficiency
+                      Fluent
                     </div>
                   </div>
                 </span>

@@ -29,12 +29,12 @@ class Volunteer extends React.Component {
             </div>
             <div className="col-sm-8">
               <h6 className="volunteer-details">
-                Participating in the "Digital Starter" program.
+              Volunteered at “Digital Starter” program.
               </h6>
               <div className="experience-details">
-                accompanying small businesses in the periphery and setting up
-                digital tools such as a Wix website, a social networking page,
-                and a presence on Google and Waze.
+                Accompanying small businesses in the periphery and setting up digital tools such as
+                a landing page through Wix, a Facebook business page, Google my business
+                profile.
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ class Volunteer extends React.Component {
             </div>
             <div className="col-sm-8">
               <h6 className="volunteer-details">
-                Participation in the Volunteer Leadership Program.
+                Participated in the Volunteer Leadership Program.
               </h6>
               <div className="volunteer-details">
                 workshops for high school youth to give them the spirit of

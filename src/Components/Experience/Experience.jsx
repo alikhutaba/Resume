@@ -45,7 +45,7 @@ class Experience extends React.Component {
           <div className="row experience-row">
             <div className="col-sm-4">
               <h4 className="experience-name">Afeka College</h4>
-              <p className="experience-date">May.2015 – Today</p>
+              <p className="experience-date">Oct.2015 – Jun.2021</p>
               <div className="experience-location">
                 <GrLocation></GrLocation> Tel-Aviv
               </div>
@@ -56,13 +56,16 @@ class Experience extends React.Component {
                   B.Sc. Software Engineering.
                 </h6>
                 <p className="experience-details">
-                  GPA: 85, yearly certificate of excellence.
+                  GPA: 85, Excelling student with a yearly certificate of excellence.
                 </p>
                 <div>
-                  <h6>2 semesters to graduation.</h6>
-                </div>
-                <div>
                   <h6>Recommendations will be provided upon request.</h6>
+                </div>
+                <div className="courses">
+                  <h6 style={{fontWeight : "bold"}}>Top Courses:</h6>
+                  <h6>
+                    Data Structures, Algorithms, Machine learning, OOP, Operating System, Linux, Database Systems, Parallel Computation.
+                  </h6>
                 </div>
               </div>
             </div>
@@ -81,7 +84,7 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  High School Diploma - Major in Biology and Chemistry
+                  High School Diploma.
                 </h6>
                 <p className="experience-details">
                   Majored in Biology and Chemistry, five-unit level.
@@ -111,25 +114,21 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  Outstanding program "Smart Up" at Afeka College.
+                “Smart Up” program of outstanding student - Afeka College
                 </h6>
                 <ul className="list">
                   <li>
-                    Designed and constructed a driving simulator adapted for
-                    users with cerebral palsy.
+                    Designed and constructed a driving simulator adapted for users with CP to
+                    make physical therapy more effective and enjoyable.
                   </li>
                   <li>
-                    Research project: “Baras Paradox” demonstration on high
+                    Conducted research about “Baras Paradox” demonstration on high
                     voltage electricity grid.
                   </li>
                   <li>
-                    Workshops in management and leadership, entrepreneurship,
-                    and scientific writing.
+                  Went through management, leadership, entrepreneurship, and scientific writing workshops and Lectures in various engineer fields such as electricity and machinery.
                   </li>
-                  <li>
-                    Lectures in various fields such as electricity and
-                    machinery.
-                  </li>
+                 
                   <li>
                     The program required: Thinking out of the box, self-learning
                     abilities, teamwork, ability to work under pressure, high
@@ -143,7 +142,7 @@ class Experience extends React.Component {
 
           <div className="row experience-row">
             <div className="col-sm-4">
-              <h4 className="experience-name">Tutor</h4>
+              <h4 className="experience-name">Teaching Assistant</h4>
               <p className="experience-date">Oct.2016 – Jun.2018</p>
               <div className="experience-location">
                 <GrLocation></GrLocation> Tel-Aviv
@@ -152,12 +151,16 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  Data structure grader and Java OOP tutor at Afeka College.
+                Teaching Assistant at Afeka College of Engineering.
                 </h6>
-                <p>
-                  Selected to grade the data structure course and train Java,
-                  OOP and Data Structure courses.
-                </p>
+                <ul className="list">
+                  <li>
+                  Led weekly office hours to 15 students: training OOP, homework assistance.
+                  </li>
+                  <li>
+                  Checked and graded data structures homework for 100+ students.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -175,16 +178,17 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  Coordinator of the Arabs students at Afeka College.
+                Coordinator of the Arab students at Afeka College.
                 </h6>
-                <p>
-                  Helped Arab students at Afeka College with their various
-                  needs.
-                </p>
-                <p>
-                  Multiplicated the number of Arabs students per year and
-                  reduced the failing percentage of first year students.
-                </p>
+                <ul className="list">
+                  <li>
+                  Helped Arab students at Afeka College with their various needs.
+                  </li>
+                  <li>
+                  Multiplicated the number of Arabs students per year and reduced the failing
+                  percentage of first year students.                  </li>
+                </ul>
+                
               </div>
             </div>
           </div>

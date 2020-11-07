@@ -75,15 +75,14 @@ class Projects extends React.Component {
             <div className="col-sm-4 project-detials">
               <h5>An EMR application for allergies vaccinations</h5>
               <p>
-                Building an application to manage vaccinations processes and
-                Tracking treatments for each patient in Meir Hospital.
+                DSS for managing allergic vaccination processes and tracking treatments for
+                patients in Meir hospital, that will reduce more than 90% of human errors.
               </p>
               <p>
-                Designing and implementing Client Server application, building a
-                RESTful web server in java that connecting to React/ Redux
-                client and MySQL relational Database to collect data set for my
-                research.
+                Designing and implementing a Client-Server application, Using Java to build a
+                REST web server that connects to a React client and a MySQL database. 
               </p>
+            
             </div>
             <div className="col-sm-8 project-pic">
               <div className="image">
