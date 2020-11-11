@@ -87,7 +87,9 @@ class Form extends React.Component {
 
       <form id="myForm" className="card" onSubmit={this.handleOnSubmit}>
         <div className="cardHeader">
+          <h6>If you liked my website, or if you have a work position to offer, or anything else</h6>
           <h4>Contact Me</h4>
+
         </div>
 
         <div className="row">
