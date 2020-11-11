@@ -7,14 +7,22 @@ import { MdPhoneIphone } from "react-icons/md";
 // import { FcLike } from "react-icons/fc";
 // import { FcDislike } from "react-icons/fc";
 
+import Form from './Form'
+
+
 class Contact extends React.Component {
+
+
   render() {
     return (
       <div className="Contact" id="Contact">
         <div className="container">
           <h1 className="contact-title">Contact</h1>
 
+
           <hr></hr>
+          <Form></Form>
+
 
           <div className="row">
             <div className="col-sm-6">
