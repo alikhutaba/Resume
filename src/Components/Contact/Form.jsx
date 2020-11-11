@@ -72,12 +72,11 @@ class Form extends React.Component {
         process.env.REACT_APP_EMAILJS_USER_ID,
       ).then(() => {
         toast.success("Sent!", { position: toast.POSITION.TOP_CENTER, autoClose: 5000 })
-        event.target.reset();
-
       }, (err) => {
         // alert(JSON.stringify(err));
         toast.error("Sorry, we are unable to send the message now, please try later.", { position: toast.POSITION.TOP_CENTER, autoClose: 10000 })
       });
+      event.target.reset();
     }
   }
 
