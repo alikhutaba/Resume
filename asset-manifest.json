@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.32c797d0.chunk.css",
-    "main.js": "/Resume/static/js/main.28439d5d.chunk.js",
-    "main.js.map": "/Resume/static/js/main.28439d5d.chunk.js.map",
+    "main.css": "/Resume/static/css/main.e14f99cb.chunk.css",
+    "main.js": "/Resume/static/js/main.c8a47eec.chunk.js",
+    "main.js.map": "/Resume/static/js/main.c8a47eec.chunk.js.map",
     "runtime-main.js": "/Resume/static/js/runtime-main.c5f819f1.js",
     "runtime-main.js.map": "/Resume/static/js/runtime-main.c5f819f1.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/Resume/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.34b03914.chunk.js": "/Resume/static/js/2.34b03914.chunk.js",
-    "static/js/2.34b03914.chunk.js.map": "/Resume/static/js/2.34b03914.chunk.js.map",
+    "static/css/2.956e9ece.chunk.css": "/Resume/static/css/2.956e9ece.chunk.css",
+    "static/js/2.2b811203.chunk.js": "/Resume/static/js/2.2b811203.chunk.js",
+    "static/js/2.2b811203.chunk.js.map": "/Resume/static/js/2.2b811203.chunk.js.map",
     "index.html": "/Resume/index.html",
-    "precache-manifest.308ef349efe2905bdc8957aada127bdc.js": "/Resume/precache-manifest.308ef349efe2905bdc8957aada127bdc.js",
+    "precache-manifest.a11da246669845ac42ae95e255d46bf2.js": "/Resume/precache-manifest.a11da246669845ac42ae95e255d46bf2.js",
     "service-worker.js": "/Resume/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/Resume/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.32c797d0.chunk.css.map": "/Resume/static/css/main.32c797d0.chunk.css.map",
-    "static/js/2.34b03914.chunk.js.LICENSE.txt": "/Resume/static/js/2.34b03914.chunk.js.LICENSE.txt",
+    "static/css/2.956e9ece.chunk.css.map": "/Resume/static/css/2.956e9ece.chunk.css.map",
+    "static/css/main.e14f99cb.chunk.css.map": "/Resume/static/css/main.e14f99cb.chunk.css.map",
+    "static/js/2.2b811203.chunk.js.LICENSE.txt": "/Resume/static/js/2.2b811203.chunk.js.LICENSE.txt",
     "static/media/ERM.png": "/Resume/static/media/ERM.85cdacc9.png",
     "static/media/ali-proflie.png": "/Resume/static/media/ali-proflie.af1d5f09.png",
     "static/media/Main.css": "/Resume/static/media/lights.f4cb7ba7.jpeg",
@@ -22,9 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c5f819f1.js",
-    "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.34b03914.chunk.js",
-    "static/css/main.32c797d0.chunk.css",
-    "static/js/main.28439d5d.chunk.js"
+    "static/css/2.956e9ece.chunk.css",
+    "static/js/2.2b811203.chunk.js",
+    "static/css/main.e14f99cb.chunk.css",
+    "static/js/main.c8a47eec.chunk.js"
   ]
 }
