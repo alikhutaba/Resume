@@ -62,7 +62,7 @@ class Experience extends React.Component {
                   <h6>Recommendations will be provided upon request.</h6>
                 </div>
                 <div className="courses">
-                  <h6 style={{fontWeight : "bold"}}>Top Courses:</h6>
+                  <h6 style={{ fontWeight: "bold" }}>Top Courses:</h6>
                   <h6>
                     Data Structures, Algorithms, Machine learning, OOP, Operating System, Linux, Database Systems, Parallel Computation.
                   </h6>
@@ -103,6 +103,45 @@ class Experience extends React.Component {
 
           {/* -------------------------Career---------------------------- */}
 
+
+          <div className="row experience-row">
+            <div className="col-sm-4">
+              <h4 className="experience-name">Hackathon</h4>
+              <p className="experience-date">Oct.2020 – Dec.2020</p>
+              <div className="experience-location">
+                <GrLocation></GrLocation> Online
+              </div>
+            </div>
+            <div className="col-sm-8">
+              <div className="experience-details">
+                <h6 className="experience-details-title">
+                  Participate in ”Hasoub” hackathon.
+                </h6>
+                <ul className="list">
+                  <li>
+                    Our team was in Top 5 in pitching the idea.
+                  </li>
+                  <li>
+                    Built android app for meditation and relaxing.
+                  </li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/file/d/1HnJVRiYpspkczX7hNrkIPGIOzrbPh9Lq/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      For our pitch Click Here
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
           <div className="row experience-row">
             <div className="col-sm-4">
               <h4 className="experience-name">Outstanding program</h4>
@@ -114,7 +153,7 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                “Smart Up” program of outstanding student - Afeka College
+                  “Smart Up” program of outstanding student - Afeka College
                 </h6>
                 <ul className="list">
                   <li>
@@ -126,13 +165,22 @@ class Experience extends React.Component {
                     voltage electricity grid.
                   </li>
                   <li>
-                  Went through management, leadership, entrepreneurship, and scientific writing workshops and Lectures in various engineer fields such as electricity and machinery.
+                    Went through management, leadership, entrepreneurship, and scientific writing workshops and Lectures in various engineer fields such as electricity and machinery.
                   </li>
-                 
+
                   <li>
                     The program required: Thinking out of the box, self-learning
                     abilities, teamwork, ability to work under pressure, high
                     motivation and responsibility.
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.youtube.com/watch?v=xCZ-_0Aayvk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Driving simulator Click Here
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -151,14 +199,14 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                Teaching Assistant at Afeka College of Engineering.
+                  Teaching Assistant at Afeka College of Engineering.
                 </h6>
                 <ul className="list">
                   <li>
-                  Led weekly office hours to 15 students: training OOP, homework assistance.
+                    Led weekly office hours to 15 students: training OOP, homework assistance.
                   </li>
                   <li>
-                  Checked and graded data structures homework for 100+ students.
+                    Checked and graded data structures homework for 100+ students.
                   </li>
                 </ul>
               </div>
@@ -178,17 +226,17 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                Coordinator of the Arab students at Afeka College.
+                  Coordinator of the Arab students at Afeka College.
                 </h6>
                 <ul className="list">
                   <li>
-                  Helped Arab students at Afeka College with their various needs.
+                    Helped Arab students at Afeka College with their various needs.
                   </li>
                   <li>
-                  Multiplicated the number of Arabs students per year and reduced the failing
+                    Multiplicated the number of Arabs students per year and reduced the failing
                   percentage of first year students.                  </li>
                 </ul>
-                
+
               </div>
             </div>
           </div>
