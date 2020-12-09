@@ -97,11 +97,11 @@ class Contact extends React.Component {
             }}
           >
             <a
-              href="https://drive.google.com/file/d/1myodEkbJozZgpw_ZTqDKy6DU-yZD2QY9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xWzyHJhPjjI-6Sey88kRvqWuYK12MKO-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              PDF Resume
+              View full CV
             </a>
           </h4>
           <hr></hr>

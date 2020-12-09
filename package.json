@@ -22,11 +22,13 @@
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
     "react-parallax": "^3.0.3",
+    "react-player": "^2.7.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.1.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
-    "react-toastify": "^6.1.0"
+    "react-toastify": "^6.1.0",
+    "react-youtube": "^7.13.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,11 +1,15 @@
 import React from "react";
 import "./Experience.css";
 import { GrLocation } from "react-icons/gr";
+import YouTube from 'react-youtube';
 
 class Experience extends React.Component {
   render() {
     return (
-      <div className="Experiences" id="Experiences">
+
+
+
+      <div className="Experiences" id="Experiences" >
         <div className="container">
           <h1 className="experience-title">Experience</h1>
           <div className="quotes">
@@ -115,16 +119,16 @@ class Experience extends React.Component {
             <div className="col-sm-8">
               <div className="experience-details">
                 <h6 className="experience-details-title">
-                  Participate in ”Hasoub” hackathon.
+                  Participated in Hasoub Campus Startup Cup.
                 </h6>
                 <ul className="list">
                   <li>
-                    Our team was in Top 5 in pitching the idea.
+                    We won second place.
                   </li>
                   <li>
-                    Built android app for meditation and relaxing.
+                    Built an app for meditation and relaxing.
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://drive.google.com/file/d/1HnJVRiYpspkczX7hNrkIPGIOzrbPh9Lq/view?usp=sharing"
                       target="_blank"
@@ -132,8 +136,12 @@ class Experience extends React.Component {
                     >
                       For our pitch Click Here
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
+                <dir className="youtubeVideo">
+                  <YouTube videoId="qqhczg75bdI" opts={{ width: '100%' }}></YouTube>
+                </dir>
+
               </div>
             </div>
           </div>
@@ -173,7 +181,7 @@ class Experience extends React.Component {
                     abilities, teamwork, ability to work under pressure, high
                     motivation and responsibility.
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://www.youtube.com/watch?v=xCZ-_0Aayvk"
                       target="_blank"
@@ -181,8 +189,11 @@ class Experience extends React.Component {
                     >
                       Driving simulator Click Here
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
+                <dir className="youtubeVideo">
+                  <YouTube videoId="xCZ-_0Aayvk" opts={{ width: '100%' }}></YouTube>
+                </dir>
               </div>
             </div>
           </div>
@@ -243,7 +254,7 @@ class Experience extends React.Component {
 
           {/* ----------------------------------------------------- */}
         </div>
-      </div>
+      </div >
     );
   }
 }

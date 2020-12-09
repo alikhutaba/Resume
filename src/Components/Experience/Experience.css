@@ -73,10 +73,23 @@ li {
   margin-top: 10px !important;
 }
 
+/* @media screen and (max-width: 1300px) {
+  .youtubeVideo{
+    height: 260px;
+    width: 320px;
+  }
+} */
+
+.youtubeVideo{
+  width: 100%;
+
+}
+
 @media screen and (max-width: 450px) {
   .experience-title {
     font-size: 60px;
   }
+ 
 }
 @media screen and (max-width: 360px) {
   .experience-title {

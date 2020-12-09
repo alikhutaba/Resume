@@ -23,7 +23,7 @@ function App() {
       <Volunteer />
       <Contact />
       <footer id="footer">
-        <h6 className="rights">Copyright © 2020 Ali Khutaba</h6>
+        <h6 className="rights">Copyright © {new Date().getFullYear()} Ali Khutaba</h6>
       </footer>
     </div>
   );
