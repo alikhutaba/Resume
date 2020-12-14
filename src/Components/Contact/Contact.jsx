@@ -73,7 +73,7 @@ class Contact extends React.Component {
               fontWeight: "bold",
             }}
           >
-            Ali.Khutaba@gmail.com
+            Khutaba.Ali@gmail.com
           </h6>
 
           <h6
