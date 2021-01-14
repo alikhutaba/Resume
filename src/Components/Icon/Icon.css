@@ -1,0 +1,24 @@
+.linkedin,
+.github,
+.mail,
+.phone {
+  display: inline-block;
+  color: #ff6600;
+  margin: 50px 50px 50px 50px !important;
+}
+
+.linkedin :hover {
+  color: #2867b2;
+}
+
+.github :hover {
+  color: #24292e;
+}
+
+.mail :hover {
+  color: #b23121;
+}
+
+.phone :hover {
+  color: #00ff00;
+}

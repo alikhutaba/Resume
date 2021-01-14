@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 770px) {
+  .skils-col {
+    flex: unset;
+    width: 100% !important;
+    display: block !important;
+    max-width: unset;
+  }
+}

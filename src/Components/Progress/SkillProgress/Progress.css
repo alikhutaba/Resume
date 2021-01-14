@@ -1,0 +1,33 @@
+.skill {
+  margin-bottom: 20px;
+}
+.skill-name {
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
+}
+
+.skill-progress {
+  padding-top: 5px;
+}
+
+.progress {
+  border-radius: 1rem;
+  height: "25px";
+  width: 100% !important;
+  /* background-color: #e0e0e0; */
+  background-color: white;
+  height: 0.6rem;
+}
+
+.progress-bar {
+  background-color: #ff6600 !important;
+}
+
+@media (max-width: 576px) {
+  .skill-progress {
+    max-width: 65% !important;
+  }
+  .skill-name {
+    max-width: 35% !important;
+  }
+}

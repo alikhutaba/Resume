@@ -1,0 +1,37 @@
+.language {
+  margin-bottom: 20px;
+}
+.language-name {
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
+}
+
+.language-progress-div {
+  padding-top: 5px;
+}
+
+.progress {
+  border-radius: 1rem;
+  height: "25px";
+  width: 100% !important;
+  /* background-color: #e0e0e0; */
+  background-color: white;
+  height: 0.6rem;
+}
+
+.language-progress {
+    height: 20px !important;
+  }
+
+.progress-bar {
+  background-color: #ff6600 !important;
+}
+
+@media (max-width: 576px) {
+  .language-progress-div {
+    max-width: 65% !important;
+  }
+  .language-name {
+    max-width: 35% !important;
+  }
+}

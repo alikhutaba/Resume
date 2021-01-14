@@ -1,0 +1,174 @@
+.main-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  background-color: rgba(85, 85, 85, 0.7);
+  border-radius: 1rem;
+  color: aliceblue;
+  padding: 0;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 2vw;
+}
+
+.scroll {
+  text-align: center;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+div.scroll:hover .scrollIcon {
+  display: none;
+}
+div.scroll:hover .scrollText {
+  display: inline;
+  cursor: pointer;
+}
+
+.scrollIcon {
+  color: #ff6600;
+  display: block;
+}
+
+.scrollText {
+  color: #ff6600;
+  font-family: Dosis;
+  letter-spacing: 2px;
+  font-size: 32px;
+  display: none;
+}
+
+.name {
+  position: relative;
+  font-size: 54px;
+  margin-bottom: 1vw;
+}
+
+.status {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  /* color: #FFFF00; */
+  color: #ff6600;
+}
+
+.status1 {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  /* color: #FFFF00; */
+  color: white;
+}
+
+
+
+.line {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+@media screen and (max-width: 500px) {
+  .main-card {
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-card {
+    transform: translate(-50%, -50%);
+    background-color: rgba(85, 85, 85, 0.9);
+
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .name {
+    font-size: 40px;
+  }
+
+  .status{
+    font-size: 20px;
+  }
+  .status1{
+    font-size: 22px;
+  }
+  .scrollText {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .name {
+    font-size: 32px;
+  }
+
+  .status {
+    font-size: 18px;
+  }
+  .status1{
+    font-size: 20px;
+  }
+  .scrollText {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .container {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    padding-right: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding-right: 80px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .container {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding-right: 140px;
+  }
+}
+
+@media screen and (max-width: 850px), screen and (max-height: 560px) {
+  .container {
+    padding-right: 15px;
+  }
+
+  div.scroll:hover .scrollIcon {
+    display: inline;
+  }
+  div.scroll:hover .scrollText {
+    display: none;
+    cursor: pointer;
+  }
+}

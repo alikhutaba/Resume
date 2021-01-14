@@ -1,0 +1,19 @@
+.Main {
+  background-image: url("../../images/lights.jpeg");
+  
+  /* background-image: url("https://images.pexels.com/photos/296323/pexels-photo-296323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.section{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}

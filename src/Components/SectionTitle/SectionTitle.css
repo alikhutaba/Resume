@@ -1,0 +1,17 @@
+.section-title {
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 72px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .quotes{
+    text-align: center;
+  }
+
+  @media screen and (max-width: 450px) {
+    .section-title {
+      font-size: 60px;
+    }
+  }

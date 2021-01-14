@@ -5,8 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* height: 100%;
-  margin: 0; */
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -15,3 +13,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+footer {
+  text-align: center;
+  height: 50px;
+  margin-top: -50px;
+}
+
+.rights {
+  font-family: "Trocchi", serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
