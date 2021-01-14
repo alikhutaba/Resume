@@ -21,6 +21,7 @@
     "react-alert": "^7.0.2",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
+    "react-new-window": "^0.1.2",
     "react-parallax": "^3.0.3",
     "react-player": "^2.7.0",
     "react-router-dom": "^5.2.0",

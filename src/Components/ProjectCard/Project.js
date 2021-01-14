@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css";
+import NewWindow from 'react-new-window'
 
 export default function Project(props) {
     const { name, details, projectLink, pic } = props;
@@ -7,6 +8,9 @@ export default function Project(props) {
     console.log(name)
     console.log(projectLink)
     console.log("------------------")
+
+
+
     return (
         <div className="row project">
             <div className="col-sm-4 project-detials">
@@ -16,7 +20,8 @@ export default function Project(props) {
                     <p>{value}</p>
                 ))}
 
-                <button style={projectLink === undefined ? { display: "none" } : { display: "block" }} onClick={() => window.open({ projectLink })} type="button" className="btn btn-outline-danger">Website</button>
+                <button style={projectLink === undefined ? { display: "none" } : { display: "block" }} onClick={() => window.open(projectLink, '_blank', 'noopener,noreferrer')} type="button" className="btn btn-outline-danger">Website</button>
+
             </div>
 
             <div className="col-sm-8 project-pic">
@@ -51,3 +56,7 @@ export default function Project(props) {
         </div >
     );
 }
+
+
+
+{/* <button style={projectLink === undefined ? { display: "none" } : { display: "block" }}  onClick={() => window.open({ projectLink })} type="button" className="btn btn-outline-danger">Website</button> */ }
