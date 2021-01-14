@@ -4,7 +4,9 @@ import "./Project.css";
 export default function Project(props) {
     const { name, details, projectLink, pic } = props;
 
-    console.log(details[0])
+    console.log(name)
+    console.log(projectLink)
+    console.log("------------------")
     return (
         <div className="row project">
             <div className="col-sm-4 project-detials">
