@@ -10,7 +10,7 @@ export default function MainCard() {
 
             <hr className="line"></hr>
             <h4 className="status">Software Engineer</h4>
-            <h5 className="status1">Looking for my next Challenge</h5>
+            <h5 className="status1">Looking for my next challenge</h5>
 
             <Link
                 activeClass="active"

@@ -1,23 +1,16 @@
 import React from "react";
 import "./Project.css";
-import NewWindow from 'react-new-window'
 
 export default function Project(props) {
     const { name, details, projectLink, pic } = props;
-
-    console.log(name)
-    console.log(projectLink)
-    console.log("------------------")
-
-
 
     return (
         <div className="row project">
             <div className="col-sm-4 project-detials">
                 <h5>{name}</h5>
 
-                {details.map((value) => (
-                    <p>{value}</p>
+                {details.map((value, indx) => (
+                    <p key={indx}>{value}</p>
                 ))}
 
                 <button style={projectLink === undefined ? { display: "none" } : { display: "block" }} onClick={() => window.open(projectLink, '_blank', 'noopener,noreferrer')} type="button" className="btn btn-outline-danger">Website</button>
@@ -56,7 +49,3 @@ export default function Project(props) {
         </div >
     );
 }
-
-
-
-{/* <button style={projectLink === undefined ? { display: "none" } : { display: "block" }}  onClick={() => window.open({ projectLink })} type="button" className="btn btn-outline-danger">Website</button> */ }

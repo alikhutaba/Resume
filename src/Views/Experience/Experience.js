@@ -25,7 +25,7 @@ export default function Experience() {
 
         <Card title="Afeka College" subTitle="B.Sc. Software Engineering." date="Oct.2015 – Jun.2021" location="Tel-Aviv" details={afekaDetails} detailsType="p" myVideoId=""></Card>
 
-        <Card title="Ibn khaldun" subTitle="“High School Diploma." date="Oct.2010 – Jun.2013" location="Arraba" details={schoolDetails} detailsType="p" myVideoId=""></Card>
+        {/* <Card title="Ibn khaldun" subTitle="“High School Diploma." date="Oct.2010 – Jun.2013" location="Arraba" details={schoolDetails} detailsType="p" myVideoId=""></Card> */}
 
       </div>
     </div >
@@ -40,26 +40,24 @@ const expQuoteAuthor = "Paulo Coelho."
 
 const hackDetails = [
   "We won second place."
-  , "Built an app for meditation and relaxing."
+  , "Built an App for Meditation and Relaxing."
 ]
 
 const smarUpDetails = [
   "Designed and constructed a driving simulator adapted for users with CP to make physical therapy more effective and enjoyable."
   , "Conducted research about “Baras Paradox” demonstration on high voltage electricity grid."
   , " Went through management, leadership, entrepreneurship, and scientific writing workshops and Lectures in various engineer fields such as electricity and machinery."
-  , "The program required: Thinking out of the box, self-learning abilities, teamwork, ability to work under pressure, high motivation and responsibility."
 ]
 
-const schoolDetails = [
-  "Majored in Biology and Chemistry, five-unit level."
-  , "Mathematics and English – five-unit level."
-]
+// const schoolDetails = [
+//   "Majored in Biology and Chemistry, five-unit level."
+//   , "Mathematics and English – five-unit level."
+// ]
 
 const afekaDetails = [
   " GPA: 85, Excelling student with a yearly certificate of excellence."
   , "Recommendations will be provided upon request."
   , "Top Courses: Data Structures, Algorithms, Machine learning, OOP, Operating System, Linux, Database Systems, Parallel Computation."
-
 ]
 
 const teachingAssistantDetails = [
@@ -69,5 +67,5 @@ const teachingAssistantDetails = [
 
 const coordinatorDetails = [
   "Helped Arab students at Afeka College with their various needs."
-  , "Multiplicated the number of Arabs students per year and reduced the failingpercentage of first year students."
+  , "Multiplicated the number of Arabs students per year and reduced the failing percentage of first year students."
 ]

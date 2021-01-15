@@ -23,14 +23,14 @@ export default function Card(props) {
                     <h6 className="card-details-title">{subTitle}</h6>
 
                     {detailsType === "p" ? (
-                        details.map((value) => (
-                            <p className="par-details">{value}</p>
+                        details.map((value, indx) => (
+                            <p key={indx} className="par-details">{value}</p>
                         ))
                     ) : detailsType === "li" ? (
 
                         <ul className="list">
-                            {details.map((value) => (
-                                <li>{value}</li>
+                            {details.map((value, indx) => (
+                                <li key={indx}>{value}</li>
                             ))}
                         </ul>
 

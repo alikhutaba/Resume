@@ -35,4 +35,4 @@ const volunteerQuoteAuthor = "H. Jackson Brown Jr."
 
 const digitalDetails = ["Accompanying small businesses in the periphery and setting up digital tools such as a landing page through Wix, a Facebook business page, Google my business profile."]
 
-const leadershipDetails = [" workshops for high school youth to give them the spirit of volunteering and a volunteer days in schools and institutions for disabilities."]
+const leadershipDetails = [" workshops for high school youth to give them the spirit of volunteering and a volunteer days in schools and institutions for Children with disabilities."]
